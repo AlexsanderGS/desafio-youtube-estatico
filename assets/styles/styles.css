@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    width: 1440;
+    height: 56;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 146px;
+    height: 24px;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.logo {
+    height: 24px;
+}
+
+.header__center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    width: 50%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+}
+
+.search-btn {
+    background: #f8f8f8;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-btn,
+.profile-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.icon-btn img,
+.profile-btn img {
+    width: 24px;
+    height: 24px;
+}
+
